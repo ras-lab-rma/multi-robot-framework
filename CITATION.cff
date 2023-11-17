@@ -1,0 +1,11 @@
+cff-version: 1.0.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: Le Flécher
+    given-names: Emile
+  - family-names: La Grappe
+    given-names: Alexandre
+title: "Multi-Robot ROS2 Framework for Ground Vehicles"
+version: 1.0.0
+doi: 10.5281/zenodo.1234
+date-released: 2023-11-14

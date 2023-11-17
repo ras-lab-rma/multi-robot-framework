@@ -5,8 +5,6 @@
 
 This repository serves as a Multi-robot ROS2 (C++) framework designed for ground vehicles. The primary purpose is to enable swarming capabilities as part of the European Defence Industrial Development Programme (EDIDP) Integrated Modular Unmanned Ground System (iMUGS) project. The framework is developed to showcase a centralized multi-robot coordination approach using real autonomous Unmanned Ground Vehicle (UGV) platforms.
 
-Please have a look at our [conference paper](https://www.researchgate.net/publication/367284307_iMUGS_-_A_ground_multi-robot_architecture_for_military_Manned-Unmanned_Teaming) to understand the underlying architecture.
-
 For more information about the iMUGS project: [RMA page](https://mecatron.rma.ac.be/index.php/projects/imugs/)
 
 ![Swarm Robots](media/ugvs.gif)
@@ -17,6 +15,11 @@ For more information about the iMUGS project: [RMA page](https://mecatron.rma.ac
 - [iMUGS demonstration 6](https://www.youtube.com/watch?v=gCkIzY5QPnE)
 - [iMUGS demonstration 7](https://www.youtube.com/watch?v=jnSOvB6XV8M)
 
+## Citation and License
+
+If you use this code, please cite both the code using the [Citation file](CITATION.cff) and our [conference paper](https://www.researchgate.net/publication/367284307_iMUGS_-_A_ground_multi-robot_architecture_for_military_Manned-Unmanned_Teaming) where we present the the underlying architecture.
+
+This project is licensed under the [MIT License](LICENSE).
 
 ## Architecture
 
@@ -233,9 +236,3 @@ cd .config/
 ```
 . ros2ws/launch_autonomy_sim.sh
 ```
-
-
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
